@@ -1,16 +1,13 @@
-Try to make the similar plots made by http://forecast.ewatercycle.org/ (source code at https://github.com/eWaterCycle/Cesium-NcWMS) using a Jupyter notebook.
-
-# Install
+# INSTALL
 
 ```bash
 conda env create -f environment.yml
 ```
 
-# Run
+# RUN
 
 Start jupyter with
 
 ```bash
-jupyter lab
+jupyter lab --ip=0.0.0.0
 ```
-
