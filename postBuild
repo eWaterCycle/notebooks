@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo apt install libcairo2-dev
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install jupyter-leaflet
