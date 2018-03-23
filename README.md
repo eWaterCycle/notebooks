@@ -1,13 +1,20 @@
+Plotting and analysis of [eWaterCycle forecast](http://forecast.ewatercycle.org/) output using Jupyter lab notebooks.
+
 # INSTALL
 
 ```bash
-conda env create -f environment.yml
+conda env create -n ecw -f environment.yml
+conda activate ecw
+./postBuild
 ```
 
 # RUN
 
-Start jupyter with
+Start Jupyter with
 
 ```bash
 jupyter lab --ip=0.0.0.0
 ```
+
+A web browser will open with Jupyter lab enviromnent.
+Open the notebooks (*.ipynb) to view and re-rerun them.
