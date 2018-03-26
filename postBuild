@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# node-gyp can not find header files in conda env so install os versions
-sudo apt-get install libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential g++
-
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 jupyter labextension install jupyter-leaflet
 jupyter labextension install @pyviz/jupyterlab_holoviews

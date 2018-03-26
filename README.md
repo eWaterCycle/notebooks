@@ -3,6 +3,7 @@ Plotting and analysis of [eWaterCycle forecast](http://forecast.ewatercycle.org/
 # INSTALL
 
 ```bash
+cat apt.txt | xargs apt install -y
 conda env create -n ecw -f environment.yml
 conda activate ecw
 ./postBuild
