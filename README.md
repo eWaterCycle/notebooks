@@ -1,21 +1,12 @@
 Plotting and analysis of [eWaterCycle forecast](http://forecast.ewatercycle.org/) output using Jupyter lab notebooks.
 
-# INSTALL
-
-```bash
-cat apt.txt | xargs apt install -y
-conda env create -n ecw -f environment.yml
-conda activate ecw
-./postBuild
-```
-
 # RUN
 
 Start Jupyter with
 
 ```bash
-jupyter lab --ip=0.0.0.0
+docker run -e NB_UID=$(id -u) -e NB_GID=$(id -g) -v $PWD:/home/jovyan -it --rm -p 8888:8888 ewatercycle/experiment-builder
 ```
 
-A web browser will open with Jupyter lab enviromnent.
+A url will be printed which you can open in a web browser.
 Open the notebooks (*.ipynb) to view and re-rerun them.

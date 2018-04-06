@@ -1,7 +1,0 @@
-#!/bin/bash
-
-jupyter labextension install @jupyter-widgets/jupyterlab-manager
-jupyter labextension install jupyter-leaflet
-jupyter labextension install @pyviz/jupyterlab_holoviews
-jupyter labextension install jupyter-matplotlib
-jupyter labextension install jupyterlab_bokeh
