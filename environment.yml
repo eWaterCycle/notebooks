@@ -10,5 +10,6 @@ dependencies:
 #  - holoviews==1.9.5
   - geoviews==1.4.3
   - xarray==0.10.2
+  - nc_time_axis
   - pip:
     - git+https://github.com/ioam/holoviews.git
