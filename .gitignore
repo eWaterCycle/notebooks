@@ -108,3 +108,4 @@ venv.bak/
 # External data
 /data/
 .idea
+precipitation_2001to2010.nc
